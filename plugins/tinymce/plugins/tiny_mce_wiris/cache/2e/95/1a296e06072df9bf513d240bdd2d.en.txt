@@ -1,0 +1,1 @@
+{"result":{"text":"1 over 12 x to the power of 4 minus 2 over 9 x cubed plus 3 over 2 x squared plus 2 x plus C"},"status":"ok"}

@@ -1,0 +1,1 @@
+{"result":{"text":"integral open parentheses 1 third x cubed minus 2 over 3 x squared plus 3 x plus 2 close parentheses"},"status":"ok"}

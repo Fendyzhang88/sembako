@@ -1,0 +1,143 @@
+@media only screen and (max-width: 800px) {
+	
+	/* Force table to not be like tables anymore */
+	#data1 table, 
+	#data1 thead, 
+	#data1 tbody, 
+	#data1 th, 
+	#data1 td, 
+	#data1 tr { 
+		display: block; 
+	}
+ 
+	/* Hide table headers (but not display: none;, for accessibility) */
+	#data1 thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+ 
+	#data1 tr { border: 1px solid #ccc; }
+ 
+	#data1 td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+		white-space: normal;
+		text-align:left;
+	}
+ 
+	#data1 td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		text-align:left;
+		font-weight: bold;
+	}
+ 
+	/*
+	Label the data
+	*/
+	#data1 td:before { content: attr(data-title); }
+
+	/* Force table to not be like tables anymore */
+	#data2 table, 
+	#data2 thead, 
+	#data2 tbody, 
+	#data2 th, 
+	#data2 td, 
+	#data2 tr { 
+		display: block; 
+	}
+ 
+	/* Hide table headers (but not display: none;, for accessibility) */
+	#data2 thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+ 
+	#data2 tr { border: 1px solid #ccc; }
+ 
+	#data2 td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+		white-space: normal;
+		text-align:left;
+	}
+ 
+	#data2 td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		text-align:left;
+		font-weight: bold;
+	}
+ 
+	/*
+	Label the data
+	*/
+	#data2 td:before { content: attr(data-title); }
+
+	/* Force table to not be like tables anymore */
+	#data3 table, 
+	#data3 thead, 
+	#data3 tbody, 
+	#data3 th, 
+	#data3 td, 
+	#data3 tr { 
+		display: block; 
+	}
+ 
+	/* Hide table headers (but not display: none;, for accessibility) */
+	#data3 thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+ 
+	#data3 tr { border: 1px solid #ccc; }
+ 
+	#data3 td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+		white-space: normal;
+		text-align:left;
+	}
+ 
+	#data3 td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		text-align:left;
+		font-weight: bold;
+	}
+ 
+	/*
+	Label the data
+	*/
+	#data3 td:before { content: attr(data-title); }
+}

@@ -1,0 +1,1 @@
+{"result":{"text":"22 over 55 cross times square root of 27"},"status":"ok"}

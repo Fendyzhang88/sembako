@@ -1,0 +1,1 @@
+{"result":{"text":"limit as x rightwards arrow infinity of open parentheses square root of 3 x plus 2 end root minus square root of 3 x plus 3 end root close parentheses"},"status":"ok"}
